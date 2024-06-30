@@ -1,0 +1,93 @@
+body {
+  line-height: 1.5;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.wrapper {
+  max-width: 560px;
+  margin: auto;
+  padding: 80px;
+}
+
+.search-condition-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.heading-title {
+  margin-bottom: 30px;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+.result {
+  margin-bottom: 40px;
+}
+
+.result-img {
+  max-width: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.input-search {
+  padding: 6px 8px;
+}
+
+.btn-search {
+  margin-left: 8px;
+  padding: 4px 14px;
+  border: none;
+  background-color: #5037dd;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: serif;
+}
+
+.track-name {
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.artist-name {
+  font-size:8px;
+}
+
+.playing {
+  color: rgb(66, 138, 214);
+}
+
+.music {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  max-width: 100px;
+}
+
+.music img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.play-icon:hover{
+  opacity: 0.8; /* ホバー時の透明度 */
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>練習</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここから下に、ブラウザに表示したい内容を記述する ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+
+    <div class="wrapper">
+      <div class="search-condition-panel">
+        <h1 class="heading-title">Playlist</h1>
+
+        <div class="text-center">
+          <input
+            type="text"
+            id="keyword"
+            class="input-search"
+            placeholder="Artist"
+          />
+          <button id="btn" class="btn-search">Search</button>
+        </div>
+      </div>
+      <div id="result"></div>
+    </div>
+    <audio src="" id="audio"></audio>
+
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここから上に、ブラウザに表示したい内容を記述する ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/sampleJSON.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
